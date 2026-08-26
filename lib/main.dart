@@ -1,4 +1,4 @@
-// Checkpoint 1
+// ==================== CHECKPOINT 1 - COMMENTED ====================
 
 // import 'package:flutter/material.dart';
 
@@ -10,7 +10,7 @@
 //   );
 // }
 
-// Checkpoint 2
+// ==================== CHECKPOINT 2 - COMMENTED ====================
 
 // import 'package:flutter/material.dart';
 
@@ -30,7 +30,7 @@
 //   );
 // }
 
-// Checkpoint 3
+// ==================== CHECKPOINT 3 - COMMENTED ====================
 
 // import 'package:flutter/material.dart';
 
@@ -75,7 +75,7 @@
 //   );
 // }
 
-// Checkpoint 4
+// ==================== CHECKPOINT 4 - COMMENTED ====================
 
 // import 'package:flutter/material.dart';
 
@@ -112,7 +112,7 @@
 //   }
 // }
 
-// Chechpoint 5
+// ==================== CHECKPOINT 5 - COMMENTED ====================
 
 // import 'package:flutter/material.dart';
 // void main() {
@@ -170,10 +170,14 @@
 //   }
 // }
 
+// ==================== CHECKPOINT 6 - FINAL ACTIVE CODE ====================
 import 'package:flutter/material.dart';
-
 void main() {
-  runApp(MaterialApp(home: HomePage()));
+  runApp(
+    MaterialApp(
+      home: HomePage(),
+    ),
+  );
 }
 
 class HomePage extends StatelessWidget {
@@ -186,7 +190,9 @@ class HomePage extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => LoginPage()),
+              MaterialPageRoute(
+                builder: (context) => LoginPage(),
+              ),
             );
           },
         ),
@@ -205,7 +211,9 @@ class LoginPage extends StatelessWidget {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => HomePage()),
+              MaterialPageRoute(
+                builder: (context) => HomePage(),
+              ),
             );
           },
         ),
